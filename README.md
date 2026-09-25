@@ -63,9 +63,9 @@ The system monitors three different conditions:
 
 ![Smart Home Security & Automation System](circuit.png)
 
-## 🛠️ Simulation
+## 🔗 Live Tinkercad Simulation
 
-The project was designed and tested using **Tinkercad Circuits**.
+[Open the Smart Home Security & Automation System in Tinkercad](https://www.tinkercad.com/things/2WjDVMu95nx-iot-project-37-smart-home-security-amp-automation-system)
 
 ## 💻 Technologies
 
