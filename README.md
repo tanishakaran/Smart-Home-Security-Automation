@@ -59,6 +59,27 @@ The system monitors three different conditions:
 
 **Sensors → Arduino → Decision Making → LEDs / Buzzer / Servo**
 
+## 🏗️ System Architecture
+
+```text
+Sensors
+   ↓
+Arduino Uno
+   ↓
+Decision Making
+   ↓
+┌─────────────┬─────────────┬─────────────┐
+│ Security    │ Light       │ Temperature │
+│ Detection   │ Monitoring  │ Monitoring  │
+└──────┬──────┴──────┬──────┴──────┬──────┘
+       ↓             ↓             ↓
+   Buzzer/LED      LED          LED/Alert
+       ↓
+   Servo Motor
+
+ ```
+This architecture shows how sensor inputs are processed by the Arduino and converted into security and automation actions.
+
 ## 📸 Circuit
 
 ![Smart Home Security & Automation System](circuit.png)
