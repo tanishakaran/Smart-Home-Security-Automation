@@ -80,6 +80,15 @@ Decision Making
  ```
 This architecture shows how sensor inputs are processed by the Arduino and converted into security and automation actions.
 
+## 🧪 Testing
+
+The system was tested in Tinkercad by changing distance, light, and temperature conditions.
+
+- Objects within 10 cm triggered the security alert.
+- Low-light conditions activated the light LED.
+- Temperature above 30°C activated the temperature LED.
+- The servo responded to the security condition.
+
 ## 📸 Circuit
 
 ![Smart Home Security & Automation System](circuit.png)
